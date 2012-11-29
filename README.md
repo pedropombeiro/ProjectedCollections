@@ -6,4 +6,4 @@ This project provides an implementation of ObservableCollection<T> which can wat
 Usage
 -----
 
-new ProjectedObservableCollection(sourceModelCollection, model => createViewModel(model));
+    new ProjectedObservableCollection(sourceModelCollection, model => createViewModel(model));
